@@ -1,12 +1,12 @@
 {
-    "name": "SAINI BOTS",
-    "description": "",
+    "name": "shreya",
+    "description": "uploder",
     "stack": "heroku-22",
     "keywords": [
       "telegram"
     ],
     "website": "",
-    "repository": "",
+    "repository": "https://github.com/Shreya0789/Uploader-bot-made-by-SAINI-BOTS-Jhon-wick",
     "env": {
       "BOT_TOKEN": {
         "description": "",
