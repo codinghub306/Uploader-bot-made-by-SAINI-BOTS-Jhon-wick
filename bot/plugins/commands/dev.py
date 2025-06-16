@@ -10,10 +10,10 @@ async def start(bot: Client, message: Message):
         [
             [
                 types.InlineKeyboardButton(
-                    "🛠️Help", url="https://t.me/saini_contact_bot"
+                    "🛠️Help", url="https://t.me/rajcontactbotbot"
                 ),
                 types.InlineKeyboardButton(
-                    "🛠️Repo", url="https://github.com/nikhilsainiop/Uploader-bot-made-by-SAINI-BOTS-Jhon-wick"
+                    "🛠️Repo", url="https://github.com/Shreya0789/Uploader-bot-made-by-SAINI-BOTS-Jhon-wick"
                 ),
             ],
         ]
