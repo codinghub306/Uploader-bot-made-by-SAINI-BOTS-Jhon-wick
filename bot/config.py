@@ -17,17 +17,17 @@ def is_enabled(value, default):
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    DATABASE_NAME = os.environ.get("DATABASE_NAME", "tg_bot")
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    API_ID = int(os.environ.get("API_ID", "20928172"))
+    API_HASH = os.environ.get("API_HASH", "48ed56c8db54f85d232f576b150360ef")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7662487236:AAEP6V07GMIFxFWSCjfKLpL1Sz59QOM23kU")
+    DATABASE_NAME = os.environ.get("DATABASE_NAME", "skpk05122")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://skpk05122:<LTKtHfA3oD24aHXk>@cluster0.oe7misv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    OWNER_ID = int(os.environ.get("OWNER_ID", "6443740402"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002556958706"))
     WEB_SERVER = is_enabled(os.environ.get("WEB_SERVER", "False"), False)
     WEBHOOK = True  # Don't change this
     PORT = int(os.environ.get("PORT", 8000))
-    THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://envs.sh/GV0.jpg").split()))
+    THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://te.legra.ph/file/159d3f9e2d57dd02db970.jpg").split()))
 
     # Constants
     CANCEL_DATA = {}
@@ -38,7 +38,7 @@ class Script(object):
     START_MESSAGE = (
         " {mention}\n\nsᴇɴᴅ ᴀɴʏ ʟɪɴᴋ ᴏʀ ᴛxᴛ ғɪʟᴇ."
     )
-    DEV_MESSAGE = """👋 Hey there, I'm [sᴀɪɴɪ ʙᴏᴛs](https://t.me/saini_contact_bot)) – your go-to Telegram bot developer!
+    DEV_MESSAGE = """👋 Hey there, I'm [‎ ‎ִֶָ‎ִֶָ𓂃 ࣪˖ ִֶָ𝐒ɦε ۶ৎ !!](https://t.me/rajcontactbot)) – your go-to Telegram bot developer!
 
 🤖 Love having bots that do the heavy lifting for you? That's my jam! I'm all about crafting super cool and custom Telegram bots that make your life a breeze.
 
@@ -89,7 +89,7 @@ Let's bot up and have some fun! 🤘"""
 
 📚 Bᴀᴛᴄʜ Nᴀᴍᴇ : {batch_name}
 
-🌟 Exᴛʀᴀᴄᴛᴇᴅ Bʏ : [𝄟⃝‌sᴀɪɴɪ ʙᴏᴛs𝄟⃝‌](https://t.me/saini_contact_bot)"""
+🌟 Exᴛʀᴀᴄᴛᴇᴅ Bʏ : [‎ ‎ִֶָ‎ִֶָ𓂃 ࣪˖ ִֶָ𝐒ɦε ۶ৎ !!‌](https://t.me/rajcontactbot)"""
 
 
     CAPTION_CB = """**Set Caption
