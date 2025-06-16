@@ -32,7 +32,7 @@
       },
       "DATABASE_URL": {
         "description": "REPLACE YOUR DATABASE URL",
-        "value": "mongodb+srv://mewadonlinestudy:yYjxKiZGQag8DnWH@cpvod.ywpecvo.mongodb.net/?retryWrites=true&w=majority&appName=cpvodak",
+        "value": "mongodb+srv://skpk05122:LTKtHfA3oD24aHXk@cluster0.oe7misv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         "required": true
       },
       "LOG_CHANNEL": {
