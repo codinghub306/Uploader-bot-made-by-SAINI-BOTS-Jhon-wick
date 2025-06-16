@@ -19,7 +19,7 @@ def is_enabled(value, default):
 class Config(object):
     API_ID = int(os.environ.get("API_ID", "20928172"))
     API_HASH = os.environ.get("API_HASH", "48ed56c8db54f85d232f576b150360ef")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7662487236:AAEP6V07GMIFxFWSCjfKLpL1Sz59QOM23kU")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "skpk05122")
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://skpk05122:<LTKtHfA3oD24aHXk>@cluster0.oe7misv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     OWNER_ID = int(os.environ.get("OWNER_ID", "6443740402"))
