@@ -17,13 +17,13 @@ def is_enabled(value, default):
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", "20928172"))
-    API_HASH = os.environ.get("API_HASH", "48ed56c8db54f85d232f576b150360ef")
+    API_ID = int(os.environ.get("API_ID", "21563841"))
+    API_HASH = os.environ.get("API_HASH", "aa468717ecb3153d47dba2d9be6eb90d")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    DATABASE_NAME = os.environ.get("DATABASE_NAME", "skpk05122")
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://skpk05122:<LTKtHfA3oD24aHXk>@cluster0.oe7misv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DATABASE_NAME = os.environ.get("DATABASE_NAME", "kingrajashish43211")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://kingrajashish43211:rOYviMdPMPfCvSlR@cluster0.j3o3sbf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     OWNER_ID = int(os.environ.get("OWNER_ID", "6443740402"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002556958706"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002635628928"))
     WEB_SERVER = is_enabled(os.environ.get("WEB_SERVER", "False"), False)
     WEBHOOK = True  # Don't change this
     PORT = int(os.environ.get("PORT", 8000))
